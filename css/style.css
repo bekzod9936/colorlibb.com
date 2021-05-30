@@ -1,0 +1,1884 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 0) and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background-color: white;
+    box-shadow: 0 5px 5px lightgray;
+  }
+  body .wrapper > .container-fluid:first-child {
+    background-color: #333333;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-xl-1 {
+    display: none;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-xl-1 a {
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-4 .btn-close {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-4 span.col-xl-2 {
+    background-color: #7ac64d;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-4 span.col-xl-2 a {
+    color: white;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-4 div.col-xl-2 {
+    display: none;
+    border-left: 1px solid lightgray;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-4 div.col-xl-2 a {
+    color: grey;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row .col-xl-1 {
+    border-right: 1px solid lightgray;
+    padding: 5px 5px;
+  }
+  body .wrapper > .container-fluid:first-child .row .col-xl-1 img {
+    height: 30px;
+    margin-top: 10px;
+  }
+  body .wrapper .container {
+    padding: 5px;
+  }
+  body .wrapper .container .row .row .d-inline-flex button.btn:hover {
+    border-color: #384aeb !important;
+  }
+  body .wrapper .container .row .row .d-inline-flex div:nth-child(2) {
+    position: relative;
+    margin: 0 50px;
+  }
+  body .wrapper .container .row .row .d-inline-flex div:nth-child(2) span.badge {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+  }
+  body .wrapper .container .row a.col-lg-1 {
+    display: none;
+  }
+  body .wrapper .container .row > .row {
+    display: block !important;
+  }
+  body .wrapper .container .row div.col-lg-4 {
+    display: none !important;
+  }
+  body .wrapper .container .row div.col-lg-6 {
+    display: none;
+  }
+  body > .container-fluid {
+    position: relative;
+  }
+  body > .container-fluid img {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 90%;
+    display: none;
+    width: 35vw;
+  }
+  body > .container-fluid .row {
+    background-color: #384aeb;
+  }
+  body > .container-fluid .row > div.col-11 {
+    background-color: #f1f6f7;
+    padding: 30px 10px;
+  }
+  body > .container-fluid .row > div.col-11 .container h4 {
+    font-size: 16px;
+    color: grey;
+  }
+  body > .container-fluid .row > div.col-11 .container h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  body > .container-fluid .row > div.col-11 .container .btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  body > .container-fluid .row > div.col-11 .container .btn:hover {
+    background-color: white;
+    color: #333;
+    transition: all 0.5s;
+  }
+  body main > .container-fluid .row .col-sm-6 {
+    position: relative;
+    margin-top: 10px;
+  }
+  body main > .container-fluid .row .col-sm-6:hover .hv {
+    height: 100%;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 96%;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container {
+    background-color: #384aeb;
+    margin-top: 50%;
+    width: 74%;
+    margin-left: 5px;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container a h2 {
+    font-size: 16px;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container a h5 {
+    font-size: 14px;
+  }
+  body main .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body main .container .row .card-body small {
+    font-size: 18px;
+  }
+  body main .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body main .container .row .card-body .card-link:hover {
+    color: #384aeb;
+  }
+  body main .container .row span:hover > .container {
+    height: 37%;
+  }
+  body main .container .row span {
+    position: relative;
+  }
+  body main .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.1s linear;
+  }
+  body main .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body main .container-fluid {
+    position: relative;
+  }
+  body main .container-fluid .container {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    width: 52%;
+  }
+  body main .container-fluid .container h3 {
+    font-size: 42px;
+    margin: 20px 0;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container h4 {
+    font-size: 23px;
+    margin: 15px 0;
+    color: black !important;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container p {
+    margin-bottom: 70px;
+  }
+  body main .container-fluid .container .btn {
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+  }
+  body main .container-fluid .container .btn:hover {
+    background-color: transparent;
+    transition: all 0.4s linear;
+  }
+  body section .container {
+    position: relative;
+  }
+  body section .container .fa-arrow-left {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: -20px;
+  }
+  body section .container .fa-arrow-right {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container header span {
+    border-bottom: 4px solid #384aeb;
+  }
+  body section .container .row .card-body small {
+    font-size: 19px;
+  }
+  body section .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body section .container .row .card-body .card-link:hover {
+    color: #384aeb;
+  }
+  body section .container .row span:hover > .container {
+    height: 34%;
+  }
+  body section .container .row span {
+    position: relative;
+  }
+  body section .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 20ms linear;
+  }
+  body section .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body article .container header {
+    margin: 30px 0;
+  }
+  body article .container header h1 {
+    font-weight: bolder;
+  }
+  body article .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body article .container .card .card-body {
+    padding: 0;
+  }
+  body article .container .card .card-body h2 {
+    font-size: 20px;
+  }
+  body article .container .card .card-body h2 a {
+    color: black;
+  }
+  body article .container .card .card-body a {
+    color: black;
+  }
+  body article .container .card .card-body > a:hover > i {
+    transform: translateX(15px);
+    transition: all 0.3s linear;
+  }
+  body article .container .card .card-body a:hover {
+    color: #384aeb;
+  }
+  body footer {
+    padding-top: 30px;
+    background-color: #002347;
+  }
+  body footer .container .row .col-xl-3 div h4 {
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container .row .col-xl-3 div h4 i {
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #384aeb;
+  }
+  body footer .container .row .list-group-item {
+    background-color: #002347;
+    padding: 13px 0;
+  }
+  body footer .container .row .list-group-item a:hover {
+    color: #384aeb !important;
+  }
+  body footer .container .row .col-xl-3:first-child > header:first-child {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  body footer .container .row header {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  body footer .container-fluid {
+    padding: 32px;
+    margin-top: 100px;
+    background-color: #05274b;
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container-fluid span a {
+    color: #384aeb;
+  }
+  body aside .container {
+    border-radius: 10px;
+    padding: 100px 0;
+    margin: 50px auto;
+    box-shadow: 5px 5px 5px lightgray, -5px -5px 5px lightgray;
+  }
+  body aside .container header {
+    margin-bottom: 51px;
+  }
+  body aside .container header h1 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  body aside .container input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+  }
+  body aside .container button {
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  body aside .container button:hover {
+    background-color: transparent;
+    color: black !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background-color: white;
+    box-shadow: 0 5px 5px lightgray;
+  }
+  body .wrapper > .container-fluid:first-child {
+    background-color: #333333;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-sm-3 {
+    display: block;
+    background-color: black;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-sm-3 a {
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-sm-2 .btn-close {
+    font-size: 18px;
+    font-weight: 900;
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-sm-2 span.col-sm-6 {
+    background-color: #7ac64d;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-sm-2 span.col-sm-6 a {
+    color: white;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-sm-2 div.col-xl-2 {
+    display: none;
+    border-left: 1px solid lightgray;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-sm-2 div.col-xl-2 a {
+    color: grey;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row .col-xl-1 {
+    border-right: 1px solid lightgray;
+    padding: 5px 5px;
+  }
+  body .wrapper > .container-fluid:first-child .row .col-xl-1 img {
+    height: 30px;
+    margin-top: 10px;
+  }
+  body .wrapper .container {
+    padding: 5px;
+  }
+  body .wrapper .container .row .aa .navbar .d-inline-flex button.btn:hover {
+    border-color: #384aeb !important;
+  }
+  body .wrapper .container .row .aa .navbar .d-inline-flex div:nth-child(2) {
+    position: relative;
+    margin: 0 50px;
+  }
+  body .wrapper .container .row .aa .navbar .d-inline-flex div:nth-child(2) span.badge {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+  }
+  body .wrapper .container .row a.col-lg-1 {
+    display: none;
+  }
+  body .wrapper .container .row > .row {
+    display: block !important;
+  }
+  body .wrapper .container .row div.col-lg-4 {
+    display: none !important;
+  }
+  body .wrapper .container .row div.col-lg-6 {
+    display: none;
+  }
+  body > .container-fluid {
+    position: relative;
+  }
+  body > .container-fluid img {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 90%;
+    width: 35vw;
+  }
+  body > .container-fluid .row {
+    background-color: #384aeb;
+  }
+  body > .container-fluid .row > div.col-sm-10 {
+    background-color: #f1f6f7;
+    padding: 80px 20px 10px 180px;
+  }
+  body > .container-fluid .row > div.col-sm-10 .container h4 {
+    font-size: 18px;
+    color: grey;
+  }
+  body > .container-fluid .row > div.col-sm-10 .container h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  body > .container-fluid .row > div.col-sm-10 .container .btn {
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  body > .container-fluid .row > div.col-sm-10 .container .btn:hover {
+    background-color: white;
+    color: #333;
+    transition: all 0.5s;
+  }
+  body main > .container-fluid .row .col-sm-6:last-child {
+    margin-top: 10px;
+  }
+  body main > .container-fluid .row .col-sm-6 {
+    position: relative;
+  }
+  body main > .container-fluid .row .col-sm-6:hover .hv {
+    height: 100%;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 96%;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container {
+    background-color: #384aeb;
+    margin-top: 50%;
+    width: 75%;
+    margin-left: 5px;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container a h2 {
+    font-size: 16px;
+  }
+  body main > .container-fluid .row .col-sm-6 .hv .container a h5 {
+    font-size: 14px;
+  }
+  body main .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body main .container .row .card-body small {
+    font-size: 18px;
+  }
+  body main .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body main .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body main .container .row span:hover > .container {
+    height: 36%;
+  }
+  body main .container .row span {
+    position: relative;
+  }
+  body main .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.5s linear;
+  }
+  body main .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body main .container-fluid {
+    position: relative;
+  }
+  body main .container-fluid .container {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    width: 49%;
+  }
+  body main .container-fluid .container h3 {
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container h4 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: black !important;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container p {
+    margin-bottom: 70px;
+  }
+  body main .container-fluid .container .btn {
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+  }
+  body main .container-fluid .container .btn:hover {
+    background-color: transparent;
+    transition: all 0.4s linear;
+  }
+  body section .container {
+    position: relative;
+  }
+  body section .container .fa-arrow-left {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container .fa-arrow-right {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body section .container .row .card-body small {
+    font-size: 18px;
+  }
+  body section .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body section .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body section .container .row span:hover > .container {
+    height: 36%;
+  }
+  body section .container .row span {
+    position: relative;
+  }
+  body section .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 30ms linear;
+  }
+  body section .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body article .container header {
+    margin: 35px 0;
+  }
+  body article .container header h1 {
+    font-weight: bolder;
+  }
+  body article .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body article .container .card .card-body {
+    padding: 0;
+  }
+  body article .container .card .card-body h2 {
+    font-size: 20px;
+  }
+  body article .container .card .card-body h2 a {
+    color: black;
+  }
+  body article .container .card .card-body a {
+    color: black;
+  }
+  body article .container .card .card-body > a:hover > i {
+    transform: translateX(15px);
+    transition: all 0.3s linear;
+  }
+  body article .container .card .card-body a:hover {
+    color: #384aeb;
+  }
+  body footer {
+    padding-top: 30px;
+    background-color: #002347;
+  }
+  body footer .container .row .col-xl-3 div h4 {
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container .row .col-xl-3 div h4 i {
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #384aeb;
+  }
+  body footer .container .row .list-group-item {
+    background-color: #002347;
+    padding: 12px 0;
+  }
+  body footer .container .row .list-group-item a:hover {
+    color: #384aeb !important;
+  }
+  body footer .container .row .col-xl-3:first-child > header:first-child {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  body footer .container .row header {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  body footer .container-fluid {
+    padding: 32px;
+    margin-top: 100px;
+    background-color: #05274b;
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container-fluid span a {
+    color: #384aeb;
+  }
+  body aside .container {
+    border-radius: 10px;
+    padding: 100px 0;
+    margin: 50px auto 0;
+    box-shadow: 5px 5px 5px lightgray, -5px -5px 5px lightgray;
+  }
+  body aside .container header {
+    margin-bottom: 54px;
+  }
+  body aside .container header h1 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  body aside .container input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+  }
+  body aside .container button {
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  body aside .container button:hover {
+    background-color: transparent;
+    color: black !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background-color: white;
+    box-shadow: 0 5px 5px lightgray;
+  }
+  body .wrapper > .container-fluid:first-child {
+    background-color: #333333;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-md-2 {
+    background-color: black;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-md-2 a {
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-md-4 .btn-close {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-md-4 span.col-md-2 {
+    background-color: #7ac64d;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-md-4 span.col-md-2 a {
+    color: white;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-md-4 div.col-md-2 {
+    border-left: 1px solid lightgray;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-md-4 div.col-md-2 a {
+    color: grey;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row img {
+    height: 30px;
+    margin-top: 10px;
+  }
+  body .wrapper .container {
+    padding: 5px;
+  }
+  body .wrapper .container .row .row .navbar .d-inline-flex button.btn:hover {
+    border-color: #384aeb !important;
+  }
+  body .wrapper .container .row .row .navbar .d-inline-flex div:nth-child(2) {
+    position: relative;
+    margin: 0 50px;
+  }
+  body .wrapper .container .row .row .navbar .d-inline-flex div:nth-child(2) span.badge {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+  }
+  body .wrapper .container .row a.col-lg-1 {
+    display: none;
+  }
+  body .wrapper .container .row > .row {
+    display: block !important;
+  }
+  body .wrapper .container .row div.col-lg-4 {
+    display: none !important;
+  }
+  body .wrapper .container .row div.col-lg-6 {
+    display: none;
+  }
+  body > .container-fluid {
+    position: relative;
+  }
+  body > .container-fluid img {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 90%;
+    width: 35vw;
+  }
+  body > .container-fluid .row {
+    background-color: #384aeb;
+  }
+  body > .container-fluid .row > div.col-md-10 {
+    background-color: #f1f6f7;
+    padding: 100px 10px 100px 220px;
+  }
+  body > .container-fluid .row > div.col-md-10 .container h4 {
+    font-size: 20px;
+    color: grey;
+  }
+  body > .container-fluid .row > div.col-md-10 .container h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  body > .container-fluid .row > div.col-md-10 .container .btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  body > .container-fluid .row > div.col-md-10 .container .btn:hover {
+    background-color: white;
+    color: #333;
+    transition: all 0.5s;
+  }
+  body main > .container-fluid .row .col-md-4 {
+    position: relative;
+  }
+  body main > .container-fluid .row .col-md-4:hover .hv {
+    height: 100%;
+  }
+  body main > .container-fluid .row .col-md-4 .hv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 96%;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  body main > .container-fluid .row .col-md-4 .hv .container {
+    background-color: #384aeb;
+    margin-top: 20%;
+    width: 65%;
+    margin-left: 6px;
+  }
+  body main > .container-fluid .row .col-md-4 .hv .container a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+  }
+  body main > .container-fluid .row .col-md-4 .hv .container a h2 {
+    font-size: 18px;
+  }
+  body main > .container-fluid .row .col-md-4 .hv .container a h5 {
+    font-size: 16px;
+  }
+  body main .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body main .container .row .card-body small {
+    font-size: 18px;
+  }
+  body main .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body main .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body main .container .row span:hover > .container {
+    height: 35%;
+  }
+  body main .container .row span {
+    position: relative;
+  }
+  body main .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.4s linear;
+  }
+  body main .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body main .container-fluid {
+    position: relative;
+  }
+  body main .container-fluid .container {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    width: 51%;
+  }
+  body main .container-fluid .container h3 {
+    font-size: 45px;
+    margin: 20px 0;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container h4 {
+    font-size: 25px;
+    margin: 15px 0;
+    color: black !important;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container p {
+    margin-bottom: 70px;
+  }
+  body main .container-fluid .container .btn {
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+  }
+  body main .container-fluid .container .btn:hover {
+    background-color: transparent;
+    transition: all 0.4s linear;
+  }
+  body section .container {
+    position: relative;
+  }
+  body section .container .fa-arrow-left {
+    position: absolute;
+    left: -120px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container .fa-arrow-right {
+    position: absolute;
+    right: -120px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body section .container .row .card-body small {
+    font-size: 18px;
+  }
+  body section .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body section .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body section .container .row span:hover > .container {
+    height: 35%;
+  }
+  body section .container .row span {
+    position: relative;
+  }
+  body section .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 40ms linear;
+  }
+  body section .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body article .container header {
+    margin: 45px 0;
+  }
+  body article .container header h1 {
+    font-weight: bolder;
+  }
+  body article .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body article .container .card .card-body {
+    padding: 0;
+  }
+  body article .container .card .card-body h2 {
+    font-size: 20px;
+  }
+  body article .container .card .card-body h2 a {
+    color: black;
+  }
+  body article .container .card .card-body a {
+    color: black;
+  }
+  body article .container .card .card-body > a:hover > i {
+    transform: translateX(15px);
+    transition: all 0.3s linear;
+  }
+  body article .container .card .card-body a:hover {
+    color: #384aeb;
+  }
+  body footer {
+    padding-top: 30px;
+    background-color: #002347;
+  }
+  body footer .container .row .col-md-6 div h4 {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  body footer .container .row .col-md-6 div h4 i {
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #384aeb;
+  }
+  body footer .container .row .list-group-item {
+    background-color: #002347;
+    padding: 11px 0;
+  }
+  body footer .container .row .list-group-item a:hover {
+    color: #384aeb !important;
+  }
+  body footer .container .row .col-xl-3:first-child > header:first-child {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  body footer .container .row header {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  body footer .container-fluid {
+    padding: 32px;
+    margin-top: 100px;
+    background-color: #05274b;
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container-fluid span a {
+    color: #384aeb;
+  }
+  body aside .container {
+    border-radius: 10px;
+    padding: 100px 0;
+    margin: 50px auto 0;
+    box-shadow: 5px 5px 5px lightgray, -5px -5px 5px lightgray;
+  }
+  body aside .container header {
+    margin-bottom: 50px;
+  }
+  body aside .container header h1 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  body aside .container input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+  }
+  body aside .container button {
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  body aside .container button:hover {
+    background-color: transparent;
+    color: black !important;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background-color: white;
+    box-shadow: 0 5px 5px lightgray;
+  }
+  body .wrapper > .container-fluid:first-child {
+    background-color: #333333;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-lg-2 {
+    background-color: black;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-lg-2 a {
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-lg-4 .btn-close {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-lg-4 span.col-lg-2 {
+    background-color: #7ac64d;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-lg-4 span.col-lg-2 a {
+    color: white;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-lg-4 div.col-lg-2 {
+    border-left: 1px solid lightgray;
+  }
+  body .wrapper > .container-fluid:first-child .row > .col-lg-4 div.col-lg-2 a {
+    color: grey;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row img {
+    height: 30px;
+    margin-top: 10px;
+  }
+  body .wrapper .container .row .col-lg-6 li.nav-item > a {
+    display: block !important;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  body .wrapper .container .row .col-lg-6 li.nav-item > ul {
+    display: none;
+    position: relative;
+  }
+  body .wrapper .container .row .col-lg-6 li.nav-item > ul > li {
+    border-bottom: 1px solid lightgray;
+  }
+  body .wrapper .container .row .col-lg-6 li.nav-item > ul > li > a.nav-link:hover {
+    color: white !important;
+  }
+  body .wrapper .container .row .col-lg-6 li.nav-item > ul > li:hover {
+    background-color: #384aeb !important;
+  }
+  body .wrapper .container .row .col-lg-6 li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 900;
+    animation: shift 0.5s linear forwards;
+  }
+  @keyframes shift {
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  body .wrapper .container .row .col-lg-6 li.nav-item > a:hover {
+    color: #384aeb !important;
+  }
+  body .wrapper .container .row .col-lg-4 button.btn:hover {
+    border-color: #384aeb !important;
+  }
+  body .wrapper .container .row .col-lg-4 div:nth-child(2) {
+    position: relative;
+  }
+  body .wrapper .container .row .col-lg-4 div:nth-child(2) span.badge {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+  }
+  body > .container-fluid {
+    position: relative;
+  }
+  body > .container-fluid img {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 90%;
+    width: 35vw;
+  }
+  body > .container-fluid .row {
+    background-color: #384aeb;
+  }
+  body > .container-fluid .row > div.col-lg-9 {
+    background-color: #f1f6f7;
+    padding: 150px 50px 150px 250px;
+  }
+  body > .container-fluid .row > div.col-lg-9 .container h4 {
+    font-size: 25px;
+    color: grey;
+  }
+  body > .container-fluid .row > div.col-lg-9 .container h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  body > .container-fluid .row > div.col-lg-9 .container .btn {
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  body > .container-fluid .row > div.col-lg-9 .container .btn:hover {
+    background-color: white;
+    color: #333;
+    transition: all 0.5s;
+  }
+  body main > .container-fluid .row .col-lg-4 {
+    position: relative;
+  }
+  body main > .container-fluid .row .col-lg-4:hover .hv {
+    height: 100%;
+  }
+  body main > .container-fluid .row .col-lg-4 .hv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 96%;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  body main > .container-fluid .row .col-lg-4 .hv .container {
+    background-color: #384aeb;
+    margin-top: 40%;
+    width: 71%;
+    margin-left: 0;
+  }
+  body main > .container-fluid .row .col-lg-4 .hv .container a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 5px;
+  }
+  body main > .container-fluid .row .col-lg-4 .hv .container a h2 {
+    font-size: 22px;
+  }
+  body main .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body main .container .row .card-body small {
+    font-size: 18px;
+  }
+  body main .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body main .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body main .container .row span:hover > .container {
+    height: 34%;
+  }
+  body main .container .row span {
+    position: relative;
+  }
+  body main .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s linear;
+  }
+  body main .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body main .container-fluid {
+    position: relative;
+  }
+  body main .container-fluid .container {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width: 50%;
+  }
+  body main .container-fluid .container h3 {
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container h4 {
+    font-size: 30px;
+    margin: 15px 0;
+    color: black !important;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container p {
+    margin-bottom: 70px;
+  }
+  body main .container-fluid .container .btn {
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+  }
+  body main .container-fluid .container .btn:hover {
+    background-color: transparent;
+    transition: all 0.4s linear;
+  }
+  body section .container {
+    position: relative;
+  }
+  body section .container .fa-arrow-left {
+    position: absolute;
+    left: -110px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container .fa-arrow-right {
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body section .container .row .card-body small {
+    font-size: 18px;
+  }
+  body section .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body section .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body section .container .row span:hover > .container {
+    height: 34%;
+  }
+  body section .container .row span {
+    position: relative;
+  }
+  body section .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 50ms linear;
+  }
+  body section .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body article {
+    margin-bottom: 350px;
+  }
+  body article .container header {
+    margin: 40px 0;
+  }
+  body article .container header h1 {
+    font-weight: bolder;
+  }
+  body article .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body article .container .card .card-body {
+    padding: 0;
+  }
+  body article .container .card .card-body h2 {
+    font-size: 20px;
+  }
+  body article .container .card .card-body h2 a {
+    color: black;
+  }
+  body article .container .card .card-body a {
+    color: black;
+  }
+  body article .container .card .card-body > a:hover > i {
+    transform: translateX(15px);
+    transition: all 0.3s linear;
+  }
+  body article .container .card .card-body a:hover {
+    color: #384aeb;
+  }
+  body footer {
+    padding-top: 200px;
+    background-color: #002347;
+  }
+  body footer .container .row .col-lg-3 div h4 {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  body footer .container .row .col-lg-3 div h4 i {
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #384aeb;
+  }
+  body footer .container .row .list-group-item {
+    background-color: #002347;
+    padding: 9px 0;
+  }
+  body footer .container .row .list-group-item a:hover {
+    color: #384aeb !important;
+  }
+  body footer .container .row .col-lg-3:first-child > header:first-child {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  body footer .container .row header {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  body footer .container-fluid {
+    padding: 33px;
+    margin-top: 80px;
+    background-color: #05274b;
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container-fluid span a {
+    color: #384aeb;
+  }
+  body aside {
+    position: relative;
+  }
+  body aside .container {
+    background-color: white;
+    position: absolute;
+    top: -320px;
+    left: 5%;
+    z-index: 2;
+    border-radius: 11px;
+    padding: 100px 0;
+    margin: 50px auto 0;
+    box-shadow: 5px 5px 5px lightgray, -5px -5px 5px lightgray;
+  }
+  body aside .container header {
+    margin-bottom: 50px;
+  }
+  body aside .container header h1 {
+    font-weight: bold;
+  }
+  body aside .container input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+  }
+  body aside .container button {
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 11px;
+  }
+  body aside .container button:hover {
+    background-color: transparent;
+    color: black !important;
+  }
+}
+@media screen and (min-width: 1201px) {
+  body {
+    overflow-x: hidden;
+  }
+  body .wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    background-color: white;
+    box-shadow: 0 5px 5px lightgray;
+  }
+  body .wrapper > .container-fluid:first-child {
+    background-color: #333333;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-xl-1 {
+    background-color: black;
+  }
+  body .wrapper > .container-fluid:first-child .row > span.col-xl-1 a {
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .row .btn-close {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: grey;
+  }
+  body .wrapper > .container-fluid:first-child .row > .row span.col-xl-2 {
+    background-color: #7ac64d;
+  }
+  body .wrapper > .container-fluid:first-child .row > .row span.col-xl-2 a {
+    color: white;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row > .row div.col-xl-2 {
+    border-left: 1px solid lightgray;
+  }
+  body .wrapper > .container-fluid:first-child .row > .row div.col-xl-2 a {
+    color: grey;
+    font-size: 25px;
+  }
+  body .wrapper > .container-fluid:first-child .row img {
+    height: 30px;
+    margin-top: 10px;
+  }
+  body .wrapper .container .row .col-xl-5 li.nav-item > a {
+    display: block !important;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  body .wrapper .container .row .col-xl-5 li > ul {
+    display: none;
+    position: relative;
+  }
+  body .wrapper .container .row .col-xl-5 li > ul > li {
+    border-bottom: 1px solid lightgray;
+  }
+  body .wrapper .container .row .col-xl-5 li > ul > li > a.nav-link:hover {
+    color: white !important;
+  }
+  body .wrapper .container .row .col-xl-5 li > ul > li:hover {
+    background-color: #384aeb !important;
+  }
+  body .wrapper .container .row .col-xl-5 li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 900;
+    animation: shift 0.5s linear forwards;
+  }
+  @keyframes shift {
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  body .wrapper .container .row .col-xl-5 li.nav-item > a:hover {
+    color: #384aeb !important;
+  }
+  body .wrapper .container .row .col-xl-3 button.btn:hover {
+    border-color: #384aeb !important;
+  }
+  body .wrapper .container .row .col-xl-3 div:nth-child(2) {
+    position: relative;
+  }
+  body .wrapper .container .row .col-xl-3 div:nth-child(2) span.badge {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+  }
+  body > .container-fluid {
+    position: relative;
+  }
+  body > .container-fluid img {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    height: 90%;
+    width: 35vw;
+  }
+  body > .container-fluid .row {
+    background-color: #384aeb;
+  }
+  body > .container-fluid .row .col-xl-8 {
+    background-color: #f1f6f7;
+    padding: 220px 250px;
+  }
+  body > .container-fluid .row .col-xl-8 .container h4 {
+    font-size: 30px;
+    color: grey;
+  }
+  body > .container-fluid .row .col-xl-8 .container h1 {
+    font-size: 50px;
+    font-weight: 750;
+  }
+  body > .container-fluid .row .col-xl-8 .container .btn {
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  body > .container-fluid .row .col-xl-8 .container .btn:hover {
+    background-color: white;
+    color: #333;
+    transition: all 0.5s;
+  }
+  body main > .container-fluid .row .col-xl-4 {
+    position: relative;
+  }
+  body main > .container-fluid .row .col-xl-4:hover .hv {
+    height: 100%;
+  }
+  body main > .container-fluid .row .col-xl-4 .hv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 96%;
+    height: 0;
+    transition: all 0.5s linear;
+  }
+  body main > .container-fluid .row .col-xl-4 .hv .container {
+    background-color: #0a53be;
+    margin-top: 50%;
+    width: 70%;
+    margin-left: 0;
+  }
+  body main > .container-fluid .row .col-xl-4 .hv .container a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+  }
+  body main .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body main .container .row .card-body small {
+    font-size: 18px;
+  }
+  body main .container .row .card-body a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+  }
+  body main .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body main .container .row span:hover > .container {
+    height: 35%;
+  }
+  body main .container .row span {
+    position: relative;
+  }
+  body main .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s linear;
+  }
+  body main .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body main .container-fluid {
+    position: relative;
+  }
+  body main .container-fluid .container {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 30%;
+  }
+  body main .container-fluid .container h3 {
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container h4 {
+    font-size: 30px;
+    margin: 15px 0;
+    color: black !important;
+    font-weight: bolder;
+  }
+  body main .container-fluid .container p {
+    margin-bottom: 70px;
+  }
+  body main .container-fluid .container .btn {
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 20px;
+  }
+  body main .container-fluid .container .btn:hover {
+    background-color: transparent;
+    transition: all 0.5s linear;
+  }
+  body section .container {
+    position: relative;
+  }
+  body section .container .fa-arrow-left {
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container .fa-arrow-right {
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    background-color: #f1f6f7;
+    color: #384aeb;
+    padding: 20px;
+  }
+  body section .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body section .container .row .card-body small {
+    font-size: 19px;
+  }
+  body section .container .row .card-body a {
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+  }
+  body section .container .row .card-body a:hover {
+    color: #384aeb;
+  }
+  body section .container .row span:hover > .container {
+    height: 36%;
+  }
+  body section .container .row span {
+    position: relative;
+  }
+  body section .container .row span > .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 300ms linear;
+  }
+  body section .container .row span > .container .col-3:hover {
+    background-color: #384aeb !important;
+  }
+  body article {
+    margin-bottom: 350px;
+  }
+  body article .container header {
+    margin: 50px 0;
+  }
+  body article .container header h1 {
+    font-weight: bolder;
+  }
+  body article .container header span {
+    border-bottom: 3px solid #384aeb;
+  }
+  body article .container .card .card-body {
+    padding: 0;
+  }
+  body article .container .card .card-body h2 {
+    font-size: 20px;
+  }
+  body article .container .card .card-body h2 a {
+    color: black;
+  }
+  body article .container .card .card-body a {
+    color: black;
+  }
+  body article .container .card .card-body > a:hover > i {
+    transform: translateX(15px);
+    transition: all 0.3s linear;
+  }
+  body article .container .card .card-body a:hover {
+    color: #384aeb;
+  }
+  body footer {
+    padding-top: 200px;
+    background-color: #002347;
+  }
+  body footer .container .row .col-xl-3 div h4 {
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container .row .col-xl-3 div h4 i {
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #384aeb;
+  }
+  body footer .container .row .list-group-item {
+    background-color: #002347;
+    padding: 10px 0;
+  }
+  body footer .container .row .list-group-item a:hover {
+    color: #384aeb !important;
+  }
+  body footer .container .row .col-xl-3:first-child > header:first-child {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  body footer .container .row header {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  body footer .container-fluid {
+    padding: 32px;
+    margin-top: 100px;
+    background-color: #05274b;
+    color: white;
+    font-weight: bolder;
+  }
+  body footer .container-fluid span a {
+    color: #384aeb;
+  }
+  body aside {
+    position: relative;
+  }
+  body aside .container {
+    background-color: white;
+    position: absolute;
+    top: -320px;
+    left: 11%;
+    z-index: 2;
+    border-radius: 10px;
+    padding: 100px 0;
+    margin: 50px auto 0;
+    box-shadow: 5px 5px 5px lightgray, -5px -5px 5px lightgray;
+  }
+  body aside .container header {
+    margin-bottom: 50px;
+  }
+  body aside .container header h1 {
+    font-weight: bold;
+  }
+  body aside .container input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+  }
+  body aside .container button {
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  body aside .container button:hover {
+    background-color: transparent;
+    color: black !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
